@@ -7,7 +7,7 @@ const cors = require("cors");
 
 const app = express();
 app.use(cors({
-  origin: ["http://127.0.0.1:5501"]
+  origin: ["http://127.0.0.1:5502"]
 })) // aceptar peticiones de cualquier origen
 app.use(express.json());// para poder recibir datos en formato json
 app.use(router)
